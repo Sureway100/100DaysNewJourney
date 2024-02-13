@@ -1,0 +1,4 @@
+A simple application that shows how to login with a simple validation
+and show how navigation works...
+
+when moving to the next screen, it takes the username logged in successfully
