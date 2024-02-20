@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="202.0" prefWidth="479.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.HelloController">
+   <children>
+      <Label alignment="CENTER" layoutX="14.0" layoutY="102.0" prefHeight="30.0" prefWidth="149.0" text="WHO IS THERE?" textAlignment="CENTER" />
+      <TextField fx:id="txt1" layoutX="183.0" layoutY="98.0" onAction="#onFinish" prefHeight="38.0" prefWidth="262.0" />
+      <Label fx:id="lbl1" alignment="CENTER" layoutX="89.0" layoutY="14.0" prefHeight="38.0" prefWidth="306.0" textAlignment="CENTER" textFill="#ff1a00">
+         <font>
+            <Font size="42.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
