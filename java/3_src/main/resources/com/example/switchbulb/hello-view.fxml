@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="307.0" prefWidth="506.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.switchbulb.HelloController">
+   <children>
+      <ImageView fx:id="imageView1" fitHeight="126.0" fitWidth="130.0" layoutX="14.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageView2" fitHeight="126.0" fitWidth="130.0" layoutX="188.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imageView3" fitHeight="126.0" fitWidth="130.0" layoutX="362.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true" />
+      <Button layoutX="46.0" layoutY="216.0" mnemonicParsing="false" onAction="#displayImageBtn1" prefHeight="46.0" prefWidth="60.0" text="ON/OFF" />
+      <Button layoutX="227.0" layoutY="216.0" mnemonicParsing="false" onAction="#displayImageBtn2" prefHeight="46.0" prefWidth="60.0" text="ON/OFF" />
+      <Button layoutX="401.0" layoutY="216.0" mnemonicParsing="false" onAction="#displayImageBtn3" prefHeight="46.0" prefWidth="60.0" text="ON/OFF" />
+   </children>
+</AnchorPane>
