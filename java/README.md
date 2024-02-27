@@ -3,3 +3,5 @@
 3. switch bulbs off and on
 4. mini games
 5. digital watch
+6. calendar
+
